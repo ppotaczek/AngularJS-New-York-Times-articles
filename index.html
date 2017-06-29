@@ -68,9 +68,9 @@
                     <h2>Articles</h2>
                     <br><br>
                     <span>From</span>
-                    <input type="date" ng-model="fromDate" ng-change="dateFiltr('from')">
+                    <input type="date" ng-model="fromDate" ng-change="dateFiltr()" placeholder='rrrr-mm-dd'>
                     <span>To</span>
-                    <input type="date" ng-model="toDate" ng-change="dateFiltr('to')">
+                    <input type="date" ng-model="toDate" ng-change="dateFiltr()" placeholder='rrrr-mm-dd'>
                     <br><br>
                     <p class="button button-style button-anim fa fa-long-arrow-right" ng-click="filtrArticles('newest')">
                       <span>Newest</span>
