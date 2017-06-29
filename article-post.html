@@ -1,0 +1,16 @@
+<div class='post-title'>
+  <a ng-href='{{ article.web_url }}'>
+    <h1 > {{ article.headline.main }} </h1>
+  </a>
+</div>
+<div class='post-info'>
+  <span> {{ article.pub_date | date:'HH:mm:ss, dd-MM-yyyy' }} / by
+    <a href='#' target='_blank'> {{ article.byline.organization }}
+    </a>
+  </span>
+</div>
+<p> {{ article.snippet }}
+</p>
+<a ng-href='{{ article.web_url }}' class='button button-style button-anim fa fa-long-arrow-right'>
+  <span>Read More</span>
+</a>
